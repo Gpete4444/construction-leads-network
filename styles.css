@@ -65,6 +65,7 @@ section { padding: 2.8rem 0; }
 .steps li { display: grid; grid-template-columns: auto 1fr; gap: 0.8rem; align-items: start; }
 .steps li span.n { font-family: Fraunces, Georgia, serif; width: 2rem; height: 2rem; border-radius: 50%; background: var(--pine); color: white; display: grid; place-items: center; }
 
+.table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; background: var(--white); }
 th, td { text-align: left; padding: 0.75rem 0.8rem; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { font-size: 0.95rem; }
