@@ -33,6 +33,7 @@ header.site a { color: inherit; text-decoration: none; }
 .mark { width: 2.05rem; height: 2.05rem; border: 1.5px solid #d7b08a; display: grid; place-items: center; font-size: 0.68rem; letter-spacing: 0.04em; color: #f0d7bf; flex: none; }
 nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; align-items: center; font-size: 0.95rem; }
 nav a[aria-current="page"] { color: #f0d7bf; }
+.company-tabs a[aria-current="page"] { border-bottom-color: #d7b08a; }
 .company-tabs { display: block; border-top: 1px solid rgba(215, 176, 138, 0.35); padding: 0; }
 .company-tabs .wrap { display: flex; flex-wrap: wrap; gap: 0; }
 .company-tabs a { padding: 0.75rem 1.05rem; border-bottom: 2px solid transparent; }
